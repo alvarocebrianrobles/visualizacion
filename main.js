@@ -35,6 +35,7 @@ newRects.append('rect')
     return x(d.sales);
   });
 
-function drawBarchChart(width, height) 
+function drawBarchChart(width, height) {
   var svg = d3.select('svg');
   drawBarchChart(svg._groups[0][0].clientWidth, svg._groups[0][0].clientHeight);
+}
