@@ -25,17 +25,24 @@ var y = d3.scaleBand()
 
 var newRects = rects.enter();
 
+var color = d3.scaleOrdinal()
+    .range(['green', 'red', 'blue']);
+
 newRects.append('rect')
   .attr('x', x(0))
   .attr('y', function(d, i) {
     return y(d.product);
   })
-  .attr('height', y.bandwidth)
+  .attr('height', y.bandwidth()-2)
   .attr('width', function(d, i) {
     return x(d.sales);
-  });
+  })
+  .attr("fill", function(d) { 
+    return color(d.product); 
+    });
 
 function drawBarchChart(width, height) {
   var svg = d3.select('svg');
   drawBarchChart(svg._groups[0][0].clientWidth, svg._groups[0][0].clientHeight);
 }
+
