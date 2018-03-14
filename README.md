@@ -10,7 +10,7 @@ Taking the "barchart refactor" sample (can be downloaded from here: https://gith
 
 -  Show the chart vertically.
 
-**Step by step solution**
+**Step by step solution** /
 
 1. First part of the exercise can be done just subtracting some px from attribute 'width' when filling SVG with bars
 
