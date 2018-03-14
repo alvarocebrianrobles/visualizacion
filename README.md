@@ -89,20 +89,20 @@ newRects.append('rect')
 
     - Change x and y attributes
 
-          ```javascript
+```javascript
           newRects.append('rect')
             .attr('y', function(d) {
               return y(d.sales);})
             .attr('x', function(d, i) {
               return x(d.product);
             })
-          ```
+```
     
     - Change width and height attributes
           
-          ```javascript
+```javascript
             .attr('width', x.bandwidth()-4)
             .attr('height', function(d, i) {
               return height - y(d.sales);
             })
-          ```
+```
