@@ -1,10 +1,6 @@
 # 01 - Mandatory Exercise
 
-Taking the "barchart refactor" sample that can be downloaded from here:
-
-https://github.com/Lemoncode/d3js-samples
-
-The goal of this exercise is:
+Taking the "barchart refactor" sample (can be downloaded from here: https://github.com/Lemoncode/d3js-samples) the goal of this exercise is:
 
 -  Add some space between columns.
 
