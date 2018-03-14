@@ -62,7 +62,7 @@ newRects.append('rect')
 
 4. For last, in order to exchange X axis for Y axis is needed to make some adjustments:
 
-    - Change scales config. Note that y range has to be changed for height-0, instead of 0-width.
+  - Change scales config. Note that y range has to be changed for height-0, instead of 0-width.
 
 ```javascript
           function setupYScale()
@@ -87,7 +87,7 @@ newRects.append('rect')
           }
 ```
 
-    - Change x and y attributes
+  - Change x and y attributes
 
 ```javascript
           newRects.append('rect')
@@ -98,7 +98,7 @@ newRects.append('rect')
             })
 ```
     
-    - Change width and height attributes
+  - Change width and height attributes
           
 ```javascript
             .attr('width', x.bandwidth()-4)
