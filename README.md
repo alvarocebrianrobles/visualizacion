@@ -64,7 +64,7 @@ newRects.append('rect')
 
     - Change scales config. Note that y range has to be changed for height-0, instead of 0-width.
 
-          ```javascript
+```javascript
           function setupYScale()
           {
             var maxSales = d3.max(totalSales, function(d, i) {
@@ -85,7 +85,7 @@ newRects.append('rect')
                 return d.product;
               }));
           }
-          ````
+```
 
     - Change x and y attributes
 
