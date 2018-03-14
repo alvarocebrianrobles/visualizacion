@@ -35,7 +35,7 @@ newRects.append('rect')
   });
 ```
 
-3. Part three consists in add a new variable 'legend' to the rectangles making function (bars painting function) like shown below:
+3. Part three consists in adding a new variable 'legend' to the rectangles making function (bars painting function) like shown below:
 
 ```javascript
     var legend = svg.selectAll(".legend")
