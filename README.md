@@ -60,7 +60,7 @@ newRects.append('rect')
         .text(function (d) { return d.product; });
 ```
 
-4. For last, in order to exchange X axis for Y axis is needed to make some adjustmens:
+4. For last, in order to exchange X axis for Y axis is needed to make some adjustments:
 
     - Change scales config. Note that y range has to be changed for height-0, instead of 0-width.
 
